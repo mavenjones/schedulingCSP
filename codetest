@@ -1,0 +1,26 @@
+#!/usr/local/bin/perl
+
+$exec = shift;
+$dir = shift;
+$in = shift;
+$out = shift;
+
+
+print $in."\n";
+print $out."\n";
+
+opendir DH, $dir;
+
+while($file = readdir(DH)) {
+    if($file !~ /^\./) {
+	if($file =~ /(.*)$in$/) {
+	    print " ---- $exec $dir/$1$in >& $exec$1$out.test\n";
+	    `$exec  $dir/$1$in > $exec$1$out.test 2>&1`;
+#	    print " ---- diff -w $1$out.test $dir/$1$out\n";
+#	    $output = `diff -w $1$out.test $dir/$1$out`;
+#	    print "Error!\n" if($output =~ /./);
+	}
+    }
+}
+
+closedir DH;

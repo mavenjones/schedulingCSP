@@ -1,0 +1,24 @@
+#!/usr/local/bin/perl
+
+$dir = ".";
+
+opendir DH, $dir;
+
+while($file = readdir(DH)) {
+    if($file !~ /^\./) {
+	if($file =~ /jobshopsadeh([0-9]+).bslack.test/) {
+
+	    $num = $1;
+	    open FH, $file;
+
+	    while($line = <FH>) {
+		if($line =~ /time: ([0-9]+)/) {
+		    print "$num, $1\n";
+		}
+	    }
+	    close(FH);
+	}
+    }
+}
+
+closedir DH;

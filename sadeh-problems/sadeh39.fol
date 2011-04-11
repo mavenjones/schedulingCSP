@@ -1,0 +1,240 @@
+length(0) = 4
+needs(0,0)
+length(1) = 10
+needs(1,0)
+length(2) = 6
+needs(2,0)
+length(3) = 7
+needs(3,0)
+length(4) = 5
+needs(4,0)
+length(5) = 9
+needs(5,0)
+length(6) = 4
+needs(6,0)
+length(7) = 10
+needs(7,0)
+length(8) = 3
+needs(8,0)
+length(9) = 10
+needs(9,0)
+length(10) = 3
+needs(10,1)
+length(11) = 8
+needs(11,1)
+length(12) = 4
+needs(12,1)
+length(13) = 6
+needs(13,1)
+length(14) = 5
+needs(14,1)
+length(15) = 10
+needs(15,1)
+length(16) = 5
+needs(16,1)
+length(17) = 8
+needs(17,1)
+length(18) = 8
+needs(18,1)
+length(19) = 8
+needs(19,1)
+length(20) = 14
+needs(20,2)
+length(21) = 15
+needs(21,2)
+length(22) = 10
+needs(22,2)
+length(23) = 15
+needs(23,2)
+length(24) = 13
+needs(24,2)
+length(25) = 15
+needs(25,2)
+length(26) = 12
+needs(26,2)
+length(27) = 8
+needs(27,2)
+length(28) = 15
+needs(28,2)
+length(29) = 11
+needs(29,2)
+length(30) = 10
+needs(30,3)
+length(31) = 6
+needs(31,3)
+length(32) = 9
+needs(32,3)
+length(33) = 5
+needs(33,3)
+length(34) = 9
+needs(34,3)
+length(35) = 3
+needs(35,3)
+length(36) = 6
+needs(36,3)
+length(37) = 9
+needs(37,3)
+length(38) = 11
+needs(38,3)
+length(39) = 4
+needs(39,3)
+length(40) = 8
+needs(40,4)
+length(41) = 16
+needs(41,4)
+length(42) = 15
+needs(42,4)
+length(43) = 15
+needs(43,4)
+length(44) = 16
+needs(44,4)
+length(45) = 16
+needs(45,4)
+length(46) = 10
+needs(46,4)
+length(47) = 11
+needs(47,4)
+length(48) = 10
+needs(48,4)
+length(49) = 16
+needs(49,4)
+before(19,49)
+before(29,19)
+before(39,29)
+before(9,39)
+before(18,48)
+before(28,18)
+before(38,28)
+before(8,38)
+before(17,47)
+before(27,17)
+before(37,27)
+before(7,37)
+before(6,46)
+before(26,6)
+before(36,26)
+before(16,36)
+before(15,45)
+before(25,15)
+before(5,25)
+before(35,5)
+before(34,44)
+before(24,34)
+before(14,24)
+before(4,14)
+before(3,43)
+before(23,3)
+before(33,23)
+before(13,33)
+before(12,42)
+before(22,12)
+before(2,22)
+before(32,2)
+before(11,41)
+before(21,11)
+before(31,21)
+before(1,31)
+before(0,40)
+before(20,0)
+before(10,20)
+before(30,10)
+release(0) = 0
+due(0) = 182
+release(1) = 5
+due(1) = 182
+release(2) = 0
+due(2) = 182
+release(3) = 0
+due(3) = 182
+release(4) = 0
+due(4) = 182
+release(5) = 0
+due(5) = 182
+release(6) = 0
+due(6) = 182
+release(7) = 1
+due(7) = 182
+release(8) = 14
+due(8) = 182
+release(9) = 15
+due(9) = 182
+release(10) = 0
+due(10) = 182
+release(11) = 0
+due(11) = 182
+release(12) = 0
+due(12) = 182
+release(13) = 3
+due(13) = 182
+release(14) = 0
+due(14) = 182
+release(15) = 0
+due(15) = 182
+release(16) = 9
+due(16) = 182
+release(17) = 0
+due(17) = 182
+release(18) = 0
+due(18) = 182
+release(19) = 0
+due(19) = 182
+release(20) = 0
+due(20) = 182
+release(21) = 0
+due(21) = 182
+release(22) = 0
+due(22) = 182
+release(23) = 0
+due(23) = 182
+release(24) = 0
+due(24) = 182
+release(25) = 0
+due(25) = 182
+release(26) = 0
+due(26) = 182
+release(27) = 0
+due(27) = 182
+release(28) = 0
+due(28) = 182
+release(29) = 0
+due(29) = 182
+release(30) = 6
+due(30) = 182
+release(31) = 0
+due(31) = 182
+release(32) = 14
+due(32) = 182
+release(33) = 0
+due(33) = 182
+release(34) = 0
+due(34) = 182
+release(35) = 1
+due(35) = 182
+release(36) = 0
+due(36) = 182
+release(37) = 0
+due(37) = 182
+release(38) = 0
+due(38) = 182
+release(39) = 0
+due(39) = 182
+release(40) = 0
+due(40) = 179
+release(41) = 0
+due(41) = 182
+release(42) = 0
+due(42) = 180
+release(43) = 0
+due(43) = 169
+release(44) = 0
+due(44) = 180
+release(45) = 0
+due(45) = 173
+release(46) = 0
+due(46) = 175
+release(47) = 0
+due(47) = 171
+release(48) = 0
+due(48) = 173
+release(49) = 0
+due(49) = 168
